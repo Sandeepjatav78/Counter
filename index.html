@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Counter</h1>
+    <h1 class="count">0</h1>
+    <div class="plus-min">
+        <div class="min box"><p>-</p></div>
+        <div class="plus box"><p>+</p></div>
+    </div>
+    <label for="in-de">Increment/Decrement by: </label><input id="input" type="number" id="input" value="1" oninput="getValue()" width="50px">
+    <br>
+    <input type="button" onclick="reset()" value="reset">
+</body>
+</html>
